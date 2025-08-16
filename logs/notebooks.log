@@ -231,3 +231,5 @@
 2025-02-09 22:51:10,203 - logger - INFO - Feature engineering pipeline executed successfully.
 2025-02-09 22:51:10,203 - logger - INFO - Retrieving processed data...
 2025-02-09 22:51:10,204 - logger - INFO - Processed data retrieved successfully.
+2025-02-10 23:37:44,003 - logger - INFO - Dataset loaded successfully.
+2025-02-10 23:37:47,439 - logger - INFO - Dataset loaded successfully.
