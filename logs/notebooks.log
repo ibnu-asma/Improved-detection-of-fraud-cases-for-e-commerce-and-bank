@@ -86,3 +86,62 @@
 2025-02-09 22:27:05,761 - logger - INFO - Fraud rates calculated successfully.
 2025-02-09 22:27:14,206 - logger - INFO - Plotting fraud rate map.
 2025-02-09 22:27:14,432 - logger - INFO - Fraud rate map plotted successfully.
+2025-02-09 22:31:56,958 - logger - INFO - FeatureEngineering class initialized with the provided DataFrame.
+2025-02-09 22:31:56,959 - logger - INFO - Starting the feature engineering pipeline...
+2025-02-09 22:31:56,959 - logger - INFO - Calculating fraud rate by country...
+2025-02-09 22:31:56,966 - logger - ERROR - Error in calculating fraud rate: 'country'
+2025-02-09 22:31:56,967 - logger - ERROR - Error in the feature engineering pipeline: 'country'
+2025-02-09 22:33:11,323 - logger - INFO - FeatureEngineering class initialized with the provided DataFrame.
+2025-02-09 22:33:11,324 - logger - INFO - Starting the feature engineering pipeline...
+2025-02-09 22:33:11,325 - logger - INFO - Calculating fraud rate by country...
+2025-02-09 22:33:11,334 - logger - ERROR - Error in calculating fraud rate: 'country'
+2025-02-09 22:33:11,334 - logger - ERROR - Error in the feature engineering pipeline: 'country'
+2025-02-09 22:33:14,601 - logger - INFO - FeatureEngineering class initialized with the provided DataFrame.
+2025-02-09 22:33:14,602 - logger - INFO - Starting the feature engineering pipeline...
+2025-02-09 22:33:14,602 - logger - INFO - Calculating fraud rate by country...
+2025-02-09 22:33:14,615 - logger - ERROR - Error in calculating fraud rate: 'country'
+2025-02-09 22:33:14,616 - logger - ERROR - Error in the feature engineering pipeline: 'country'
+2025-02-09 22:33:43,981 - logger - INFO - FeatureEngineering class initialized with the provided DataFrame.
+2025-02-09 22:33:43,982 - logger - INFO - Starting the feature engineering pipeline...
+2025-02-09 22:33:43,982 - logger - INFO - Calculating fraud rate by country...
+2025-02-09 22:33:43,990 - logger - ERROR - Error in calculating fraud rate: 'country'
+2025-02-09 22:33:43,991 - logger - ERROR - Error in the feature engineering pipeline: 'country'
+2025-02-09 22:36:42,321 - logger - INFO - FeatureEngineering class initialized with the provided DataFrame.
+2025-02-09 22:36:42,321 - logger - INFO - Starting the feature engineering pipeline...
+2025-02-09 22:36:42,322 - logger - INFO - Calculating fraud rate by country...
+2025-02-09 22:36:42,332 - logger - ERROR - Error in calculating fraud rate: 'country'
+2025-02-09 22:36:42,333 - logger - ERROR - Error in the feature engineering pipeline: 'country'
+2025-02-09 22:36:58,105 - logger - INFO - Dataset loaded successfully.
+2025-02-09 22:37:10,076 - logger - INFO - Plotting purchase_value vs age scatter plot.
+2025-02-09 22:37:11,333 - logger - INFO - Successfully plotted purchase_value vs age scatter plot.
+2025-02-09 22:37:54,062 - logger - INFO - Plotting categorical variables distributions by class.
+2025-02-09 22:37:56,882 - logger - INFO - Successfully plotted multiple distributions by class.
+2025-02-09 22:38:00,938 - logger - INFO - Plotting source vs browser heatmap.
+2025-02-09 22:38:01,343 - logger - INFO - Successfully plotted source vs browser heatmap.
+2025-02-09 22:38:01,358 - logger - INFO - Plotting the distribution of purchase delays.
+2025-02-09 22:38:02,974 - logger - INFO - Successfully plotted the distribution of purchase delays.
+2025-02-09 22:38:03,004 - logger - INFO - Plotting purchase patterns over time.
+2025-02-09 22:38:05,518 - logger - INFO - Successfully plotted purchase patterns over time.
+2025-02-09 22:38:05,874 - logger - INFO - Plotting the relationship between purchase value and purchase delay.
+2025-02-09 22:38:17,302 - logger - INFO - Successfully plotted purchase value vs. delay.
+2025-02-09 22:38:24,953 - logger - INFO - Standardizing country names in the world GeoDataFrame.
+2025-02-09 22:38:24,962 - logger - INFO - Country names standardized successfully.
+2025-02-09 22:38:24,963 - logger - INFO - Calculating fraud rates by country.
+2025-02-09 22:38:25,007 - logger - INFO - Fraud rates calculated successfully.
+2025-02-09 22:38:25,008 - logger - INFO - Calculating transaction volumes by country.
+2025-02-09 22:38:25,034 - logger - INFO - Transaction volumes calculated successfully.
+2025-02-09 22:38:25,034 - logger - INFO - Merging data with world GeoDataFrame.
+2025-02-09 22:38:25,051 - logger - INFO - Data merged successfully.
+2025-02-09 22:38:25,405 - logger - INFO - Calculating transaction volumes by country.
+2025-02-09 22:38:25,436 - logger - INFO - Transaction volumes calculated successfully.
+2025-02-09 22:38:26,615 - logger - INFO - Plotting transaction volume map.
+2025-02-09 22:38:28,055 - logger - INFO - Transaction volume map plotted successfully.
+2025-02-09 22:38:31,206 - logger - INFO - Calculating fraud rates by country.
+2025-02-09 22:38:31,255 - logger - INFO - Fraud rates calculated successfully.
+2025-02-09 22:38:31,293 - logger - INFO - Plotting fraud rate map.
+2025-02-09 22:38:31,882 - logger - INFO - Fraud rate map plotted successfully.
+2025-02-09 22:38:34,452 - logger - INFO - FeatureEngineering class initialized with the provided DataFrame.
+2025-02-09 22:38:34,453 - logger - INFO - Starting the feature engineering pipeline...
+2025-02-09 22:38:34,453 - logger - INFO - Calculating fraud rate by country...
+2025-02-09 22:38:34,464 - logger - ERROR - Error in calculating fraud rate: 'country'
+2025-02-09 22:38:34,465 - logger - ERROR - Error in the feature engineering pipeline: 'country'
