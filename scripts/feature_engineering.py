@@ -9,30 +9,6 @@ class FeatureEngineering:
         self.logging = logging
         self.logging.info("FeatureEngineering class initialized with the provided DataFrame.")
 
-    def calculate_fraud_rate(self):
-        """
-        Calculates the fraud rate for each country based on the transaction data.
-        """
-        self.logging.info("Calculating fraud rate by country...")
-        try:
-            # Calculate total transactions and fraudulent transactions by country
-            fraud_counts = self.df[self.df['class'] == 1].groupby('country').size()
-            total_counts = self.df.groupby('country').size()
-
-            # Calculate fraud rate
-            fraud_rate = fraud_counts / total_counts
-
-            # Create a DataFrame from the fraud rate Series
-            fraud_rate_df = fraud_rate.reset_index(name='fraud_rate')
-
-            # Merge the fraud rate back into the original DataFrame
-            self.df = self.df.merge(fraud_rate_df, on='country', how='left')
-            self.df['fraud_rate'] = self.df['fraud_rate'].fillna(0)
-            self.logging.info("Fraud rate calculated and merged successfully.")
-        except Exception as e:
-            self.logging.error("Error in calculating fraud rate: %s", e)
-            raise
-
     def preprocess_datetime(self):
         self.logging.info("Preprocessing datetime features...")
         try:
@@ -66,7 +42,7 @@ class FeatureEngineering:
         try:
             numerical_features = ['purchase_value', 'user_transaction_frequency', 'device_transaction_frequency', 
                                   'user_transaction_velocity', 'hour_of_day', 'day_of_week', 'purchase_delay', 
-                                  'age', 'fraud_rate']  # Include fraud_rate here
+                                  'age']  
             self.df[numerical_features] = self.scaler.fit_transform(self.df[numerical_features])
             self.logging.info("Numerical features normalized and scaled successfully.")
         except Exception as e:
@@ -88,14 +64,15 @@ class FeatureEngineering:
     def pipeline(self):
         self.logging.info("Starting the feature engineering pipeline...")
         try:
-            self.calculate_fraud_rate()  # Add this line to the pipeline
             self.preprocess_datetime()
             self.calculate_transaction_frequency()
             self.encode_categorical_features()
             self.normalize_and_scale()
             
-            cols_exclude = ['signup_time', 'purchase_time', 'ip_address', 'device_id', 'ip_int', 'country']
-            self.df.drop(columns=cols_exclude, inplace=True)
+            # Drop unnecessary columns (only drop if they exist)
+            cols_exclude = ['signup_time', 'purchase_time', 'ip_address', 'device_id']
+            self.df.drop(columns=[col for col in cols_exclude if col in self.df.columns], inplace=True)
+            
             self.df.set_index('user_id', inplace=True)
             
             self.processed_df = self.df
