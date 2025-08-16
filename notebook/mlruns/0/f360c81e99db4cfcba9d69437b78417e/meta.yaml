@@ -1,0 +1,15 @@
+artifact_uri: file:///home/abel/CODE/KiFiya/10-Academy-Week-8/notebook/mlruns/0/f360c81e99db4cfcba9d69437b78417e/artifacts
+end_time: 1739753391160
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f360c81e99db4cfcba9d69437b78417e
+run_name: CNN
+run_uuid: f360c81e99db4cfcba9d69437b78417e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739753233741
+status: 3
+tags: []
+user_id: abel
