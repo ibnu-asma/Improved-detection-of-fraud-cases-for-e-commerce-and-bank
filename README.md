@@ -148,7 +148,7 @@ This project is aimed at improving the detection of fraud in e-commerce and bank
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/ab3lT/10-Academy-Week-8
+   git clone https://github.com/ab3lT/10-Academy-Week-8](https://github.com/ibnu-asma/Improved-detection-of-fraud-cases-for-e-commerce-and-bank.git)
    cd 10-Academy-Week-8
 
 
