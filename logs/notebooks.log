@@ -1,1 +1,13 @@
 2025-02-07 23:30:40,788 - logger - INFO - Dataset loaded successfully.
+2025-02-07 23:35:25,823 - logger - INFO - Plotting purchase_value vs age scatter plot.
+2025-02-07 23:35:26,913 - logger - INFO - Successfully plotted purchase_value vs age scatter plot.
+2025-02-07 23:36:32,619 - logger - INFO - Plotting categorical variables distributions by class.
+2025-02-07 23:36:34,979 - logger - INFO - Successfully plotted multiple distributions by class.
+2025-02-07 23:37:04,619 - logger - INFO - Plotting source vs browser heatmap.
+2025-02-07 23:37:04,986 - logger - INFO - Successfully plotted source vs browser heatmap.
+2025-02-07 23:37:29,422 - logger - INFO - Plotting the distribution of purchase delays.
+2025-02-07 23:37:30,759 - logger - INFO - Successfully plotted the distribution of purchase delays.
+2025-02-07 23:37:39,108 - logger - INFO - Plotting purchase patterns over time.
+2025-02-07 23:37:41,793 - logger - INFO - Successfully plotted purchase patterns over time.
+2025-02-07 23:37:47,473 - logger - INFO - Plotting the relationship between purchase value and purchase delay.
+2025-02-07 23:37:56,406 - logger - INFO - Successfully plotted purchase value vs. delay.
