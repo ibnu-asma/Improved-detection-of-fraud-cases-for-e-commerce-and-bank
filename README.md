@@ -150,3 +150,8 @@ This project is aimed at improving the detection of fraud in e-commerce and bank
    ```bash
    git clone https://github.com/ab3lT/10-Academy-Week-8
    cd 10-Academy-Week-8
+
+
+2. Install dependencies:
+
+   ```pip install -r requirements.txt```
