@@ -1,0 +1,46 @@
+2025-02-19 19:01:11,806 - logger - INFO - Starting Flask application...
+2025-02-19 19:01:12,853 - logger - INFO - Starting Flask application...
+2025-02-19 19:01:46,832 - logger - INFO - Accessing /fraud_summary endpoint.
+2025-02-19 19:01:46,833 - logger - INFO - Loading fraud data from CSV...
+2025-02-19 19:01:47,516 - logger - INFO - Fraud data loaded successfully.
+2025-02-19 19:01:47,528 - logger - INFO - Successfully generated fraud summary: {'total_transactions': 129146, 'total_fraud_cases': 12268, 'fraud_percentage': 9.499326343827915}
+2025-02-19 19:02:04,649 - logger - INFO - Accessing /fraud_summary endpoint.
+2025-02-19 19:02:04,649 - logger - INFO - Loading fraud data from CSV...
+2025-02-19 19:02:05,361 - logger - INFO - Fraud data loaded successfully.
+2025-02-19 19:02:05,369 - logger - INFO - Successfully generated fraud summary: {'total_transactions': 129146, 'total_fraud_cases': 12268, 'fraud_percentage': 9.499326343827915}
+2025-02-19 19:02:12,011 - logger - INFO - Accessing /fraud_trends endpoint.
+2025-02-19 19:02:12,011 - logger - INFO - Loading fraud data from CSV...
+2025-02-19 19:02:12,798 - logger - INFO - Fraud data loaded successfully.
+2025-02-19 19:02:13,775 - logger - INFO - Successfully generated fraud trends.
+2025-02-19 19:02:24,005 - logger - INFO - Accessing /fraud_by_location endpoint.
+2025-02-19 19:02:24,005 - logger - INFO - Loading fraud data from CSV...
+2025-02-19 19:02:24,703 - logger - INFO - Fraud data loaded successfully.
+2025-02-19 19:02:24,761 - logger - INFO - Successfully generated fraud by location data.
+2025-02-19 19:02:32,946 - logger - INFO - Accessing /fraud_by_device_browser endpoint.
+2025-02-19 19:02:32,946 - logger - INFO - Loading fraud data from CSV...
+2025-02-19 19:02:33,659 - logger - INFO - Fraud data loaded successfully.
+2025-02-19 19:02:33,685 - logger - INFO - Successfully generated top fraud cases by device and browser data.
+2025-02-19 19:04:51,339 - logger - INFO - Accessing /fraud_summary endpoint.
+2025-02-19 19:04:51,341 - logger - INFO - Loading fraud data from CSV...
+2025-02-19 19:04:52,043 - logger - INFO - Fraud data loaded successfully.
+2025-02-19 19:04:52,052 - logger - INFO - Successfully generated fraud summary: {'total_transactions': 129146, 'total_fraud_cases': 12268, 'fraud_percentage': 9.499326343827915}
+2025-02-19 19:06:57,945 - logger - INFO - Accessing /fraud_summary endpoint.
+2025-02-19 19:06:57,945 - logger - INFO - Loading fraud data from CSV...
+2025-02-19 19:06:58,726 - logger - INFO - Fraud data loaded successfully.
+2025-02-19 19:06:58,736 - logger - INFO - Successfully generated fraud summary: {'total_transactions': 129146, 'total_fraud_cases': 12268, 'fraud_percentage': 9.499326343827915}
+2025-02-19 19:07:08,086 - logger - INFO - Accessing /fraud_summary endpoint.
+2025-02-19 19:07:08,087 - logger - INFO - Accessing /fraud_trends endpoint.
+2025-02-19 19:07:08,089 - logger - INFO - Accessing /fraud_by_device_browser endpoint.
+2025-02-19 19:07:08,089 - logger - INFO - Loading fraud data from CSV...
+2025-02-19 19:07:08,090 - logger - INFO - Loading fraud data from CSV...
+2025-02-19 19:07:08,091 - logger - INFO - Accessing /fraud_by_location endpoint.
+2025-02-19 19:07:08,091 - logger - INFO - Loading fraud data from CSV...
+2025-02-19 19:07:08,095 - logger - INFO - Loading fraud data from CSV...
+2025-02-19 19:07:09,993 - logger - INFO - Fraud data loaded successfully.
+2025-02-19 19:07:10,033 - logger - INFO - Successfully generated fraud summary: {'total_transactions': 129146, 'total_fraud_cases': 12268, 'fraud_percentage': 9.499326343827915}
+2025-02-19 19:07:10,315 - logger - INFO - Fraud data loaded successfully.
+2025-02-19 19:07:10,316 - logger - INFO - Fraud data loaded successfully.
+2025-02-19 19:07:10,413 - logger - INFO - Fraud data loaded successfully.
+2025-02-19 19:07:11,160 - logger - INFO - Successfully generated top fraud cases by device and browser data.
+2025-02-19 19:07:11,214 - logger - INFO - Successfully generated fraud by location data.
+2025-02-19 19:07:11,243 - logger - INFO - Successfully generated fraud trends.
