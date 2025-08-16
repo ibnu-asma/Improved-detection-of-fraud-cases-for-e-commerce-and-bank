@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1739305275896
+current_stage: None
+description: null
+last_updated_timestamp: 1739305275896
+name: random_forest
+run_id: bb513b7d0c2641668853aeb28748f300
+run_link: null
+source: file:///home/abel/CODE/KiFiya/10-Academy-Week-8/notebook/mlruns/0/bb513b7d0c2641668853aeb28748f300/artifacts/random_forest_model
+status: READY
+status_message: null
+storage_location: file:///home/abel/CODE/KiFiya/10-Academy-Week-8/notebook/mlruns/0/bb513b7d0c2641668853aeb28748f300/artifacts/random_forest_model
+user_id: null
+version: 1

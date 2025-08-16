@@ -1,0 +1,1 @@
+[('scaler', StandardScaler()), ('classifier', GradientBoostingClassifier(learning_rate=0.01))]

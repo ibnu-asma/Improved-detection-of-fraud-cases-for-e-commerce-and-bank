@@ -1,0 +1,15 @@
+artifact_uri: file:///home/abel/CODE/KiFiya/10-Academy-Week-8/notebook/mlruns/0/c0b07dfc7a824f828cf0c24bf18d3b6b/artifacts
+end_time: 1739309873984
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c0b07dfc7a824f828cf0c24bf18d3b6b
+run_name: Random Forest
+run_uuid: c0b07dfc7a824f828cf0c24bf18d3b6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739309434660
+status: 3
+tags: []
+user_id: abel
