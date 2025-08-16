@@ -1,0 +1,15 @@
+artifact_uri: file:///home/abel/CODE/KiFiya/10-Academy-Week-8/notebook/mlruns/0/8670ab681c0e4dc0b07164686a5b4ec1/artifacts
+end_time: 1739753233732
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8670ab681c0e4dc0b07164686a5b4ec1
+run_name: LSTM
+run_uuid: 8670ab681c0e4dc0b07164686a5b4ec1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739752640018
+status: 3
+tags: []
+user_id: abel

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/abel/CODE/KiFiya/10-Academy-Week-8/notebook/mlruns/0/ad1d6e6af17f4cbe98b6ceace8820b12/artifacts
+end_time: 1739747577114
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ad1d6e6af17f4cbe98b6ceace8820b12
+run_name: Gradient Boosting
+run_uuid: ad1d6e6af17f4cbe98b6ceace8820b12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739747514566
+status: 3
+tags: []
+user_id: abel
