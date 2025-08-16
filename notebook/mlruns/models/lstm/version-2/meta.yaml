@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1739306428042
+current_stage: None
+description: null
+last_updated_timestamp: 1739306428042
+name: lstm
+run_id: 9c7ebb4f2c254552b7a2fbe1b22982be
+run_link: null
+source: file:///home/abel/CODE/KiFiya/10-Academy-Week-8/notebook/mlruns/0/9c7ebb4f2c254552b7a2fbe1b22982be/artifacts/lstm_model
+status: READY
+status_message: null
+storage_location: file:///home/abel/CODE/KiFiya/10-Academy-Week-8/notebook/mlruns/0/9c7ebb4f2c254552b7a2fbe1b22982be/artifacts/lstm_model
+user_id: null
+version: 2

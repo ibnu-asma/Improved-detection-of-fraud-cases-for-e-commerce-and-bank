@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1739310614265
+current_stage: None
+description: null
+last_updated_timestamp: 1739310614265
+name: gradient_boosting
+run_id: bbca8ff8a81245aa8edef297e8b1be84
+run_link: null
+source: file:///home/abel/CODE/KiFiya/10-Academy-Week-8/notebook/mlruns/0/bbca8ff8a81245aa8edef297e8b1be84/artifacts/gradient_boosting_model
+status: READY
+status_message: null
+storage_location: file:///home/abel/CODE/KiFiya/10-Academy-Week-8/notebook/mlruns/0/bbca8ff8a81245aa8edef297e8b1be84/artifacts/gradient_boosting_model
+user_id: null
+version: 3

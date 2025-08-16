@@ -1,0 +1,1 @@
+[('scaler', StandardScaler()), ('classifier', RandomForestClassifier(max_depth=5, n_estimators=50))]
